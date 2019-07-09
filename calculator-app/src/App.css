@@ -1,0 +1,12 @@
+.app {
+    width: 400px;
+    background-color: grey;
+}
+.keypad {
+    display: flex;
+    flex-wrap: wrap;
+}
+.keypad button {
+    width: 100px;
+    height: 100px;
+}
