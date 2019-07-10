@@ -1,6 +1,16 @@
 .app {
     width: 400px;
-    background-color: grey;
+    background-color: white;
+    border: solid 1px black;
+    margin: 10px auto;
+}
+.result {
+    height: 100px;
+    border: solid 1px black;
+    text-align: right;
+}
+.result h1 {
+    padding-right: 10px;
 }
 .keypad {
     display: flex;
@@ -9,4 +19,5 @@
 .keypad button {
     width: 100px;
     height: 100px;
+    font-size: 30px;
 }
