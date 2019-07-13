@@ -1,0 +1,12 @@
+.app {
+  width: 306px;
+}
+.board {
+  display: flex;
+  flex-wrap: wrap;
+}
+.square {
+  width: 100px;
+  height: 100px;
+  border: solid 1px black;
+}
